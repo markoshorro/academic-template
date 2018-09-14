@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--
+ - File              : index.html
+ - Author            : Marcos Horro <marcos.horro@udc.gal>
+ - Last Modified Date: Ven 14 Set 2018 15:38:57 CEST
+-->
+<!doctype html>
+<html lang="gl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Página personal Marcos Horro - Grupo de Arquitectura de Computadores (GAC)">
+    <meta name="author" content="Grupo de Arquitectura de Computadores">
+
+    <title>Marcos Horro</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark bg-udc">
+	    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        	<ul class="navbar-nav mr-auto">
+	            <li class="nav-item active">
+		 	<a class="navbar-brand" href="https://www.udc.gal/">
+			    <img src="img/udc.png" width="200" height="30" alt="">
+			</a>	
+        	    </li>
+	        </ul>
+	    </div>
+
+	    <!--div class="mx-auto order-0">
+			<a class="navbar-brand" href="#">Your Name</a>
+	        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+	        	    <span class="navbar-toggler-icon"></span>
+        		</button>
+	    </div-->
+
+	    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+	        <ul class="navbar-nav ml-auto">
+	            <li class="nav-item">
+			<a class="navbar-brand" href="http://gac.udc.es/inicio.html">
+			    <img src="img/gacw.png" width="162" height="30" alt="">
+			</a>
+	            </li>
+	        </ul>
+	    </div>
+	</nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+    <div class="row">
+      <div class="col-4 mx-auto d-block">
+        <div class="row mt-5 mx-auto d-block text-center">
+          <img src="img/profile.png" class="img-fluid rounded-circle mb-3" alt="Profile picture">
+          <h4>Marcos Horro</h4>
+          <p class="lead">PhD Candidate</p>
+          <p class="font-weight-light">University of A Coruña (<a href="https://www.udc.gal/">UDC</a>)<br>Computer Architecture Group (<a href="http://gac.udc.es/">GAC</a>)</p>
+        </div>
+        <hr>
+        <div class="row mt-5 mx-auto d-block">
+          <ul class="social-icons">
+          	<li><a class="scholar" href="https://scholar.google.es/citations?user=MSmk8RAAAAAJ&hl=es&oi=ao" title="Scholar">Scholar</a></li>
+          	<li><a class="orcid" href="https://orcid.org/0000-0002-0184-8527" title="ORCID">ORCID</a></li>
+          	<li><a class="linkedin" href="https://www.linkedin.com/in/marcoshorro/" title="Linkedin">LinkedIn</a></li>
+          	<li><a class="researchgate" href="https://www.researchgate.net/profile/Marcos_Horro_Varela" title="ResearchGate">ResearchGate</a></li>
+          	<li><a class="twitter" href="https://twitter.com/markoshorro" title="Twitter">Twitter</a></li>
+          	<li><a class="instagram" href="https://www.instagram.com/markoshorro/" title="Instagram">Instagram</a></li>
+          	<li><a class="flickr" href="https://www.flickr.com/photos/markos-design/" title="Flickr">Flickr</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-8">
+        <section id="" class="mt-5">
+          <h3>Publications</h3>
+          <hr>
+          <table id="pubTable" class="display"></table>
+<pre id="bibtex">
+@misc{horrostudy,
+  title={Study of the Intel Knights Landing (KNL) memory system tradeoffs},
+  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan and Kandemir, Mahmut T},
+  year={2017},
+  publisher={13th International Summer School on Advanced Computer Architecture and Compilation for High-Performance and Embedded Systems (ACACES)}
+},
+@inproceedings{horro2016exploracion,
+  title={Exploración y optimización energética de arquitecturas heterogéneas con el framework gem5},
+  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan},
+  booktitle={Actas Jornadas Sarteco},
+  pages={509--516},
+  year={2016}
+}
+@inproceedings{horroarchitectural,
+  title={Architectural exploration of heterogeneous memory systems},
+  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan and Kandemir, Mahmut T},
+  booktitle={19th workshop on Compiler for Parallel Computing},
+  pages={1--8},
+  year={2016}
+}
+</pre>
+        </section>
+        <br>
+      </div>
+    </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Universidade da Coruña. Grupo de Arquitectura de Computadores.</span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bibtex.js"></script>
+<script type="text/javascript">
+ var init = function() {
+   bibtexify("#bibtex", "pubTable", {});
+ };
+ if (window.addEventListener) {
+   window.addEventListener('load', init, false);
+ } else if (window.attachEvent) {
+   window.attachEvent('onload', init);
+ }
+</script>
+<script>
+jQuery("#pubTable").on("click", "a", function(e) {
+  var $n = jQuery(this),
+      text = $n.text().toUpperCase();
+  if (text === "X") { return; }
+  try { 
+    _gaq.push(['_trackEvent', "PublicationAction", text]);
+} catch(err){ }
+  if ($n.attr("href") !== "#") {
+    setTimeout(function() {
+      document.location.href = $n.attr("href");
+    }, 100);
+    return false;
+  }
+});
+</script>
+  </body>
+</html>
