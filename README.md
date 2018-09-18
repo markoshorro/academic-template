@@ -6,6 +6,10 @@ academic website. It is a Bootstrap template, so better refer the [documentation
 This project is meant to directly clone in your servers' `public_html` folder, since it has all
 the dependencies.
 
+## Live demo
+
+I have used this style for my [personal webpage](http://gac.udc.es/~marcos.horro/)
+
 ## Basic changes
 
 * Colors: css/custom.css
