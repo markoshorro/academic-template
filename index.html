@@ -20,40 +20,38 @@
     <!-- Custom styles for this template -->
     <link href="css/sticky-footer-navbar.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   </head>
 
   <body>
 
     <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark bg-udc">
-	    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        	<ul class="navbar-nav mr-auto">
-	            <li class="nav-item active">
-		 	<a class="navbar-brand" href="https://www.udc.gal/">
-			    <img src="img/udc.png" width="200" height="30" alt="">
-			</a>	
-        	    </li>
-	        </ul>
-	    </div>
-
-	    <!--div class="mx-auto order-0">
-			<a class="navbar-brand" href="#">Your Name</a>
-	        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-	        	    <span class="navbar-toggler-icon"></span>
-        		</button>
-	    </div-->
-
-	    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-	        <ul class="navbar-nav ml-auto">
-	            <li class="nav-item">
-			<a class="navbar-brand" href="http://gac.udc.es/inicio.html">
-			    <img src="img/gacw.png" width="162" height="30" alt="">
-			</a>
-	            </li>
-	        </ul>
-	    </div>
-	</nav>
+      <nav class="navbar navbar-expand-md fixed-top bg-dark bg-udc">
+        <div class="container">
+    		 	<a class="navbar-brand" href="https://www.udc.gal/">
+    			    <img src="img/udc.png" width="200" height="30" alt="UDC">
+    			</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i></button>	
+    		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#teach">Teaching</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pubs">Publications</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="http://gac.udc.es/inicio.html">
+    			    <img src="img/gacw.png" width="162" height="30" alt="GAC">
+    			</a>
+        </div>
+    	</nav>
     </header>
 
     <!-- Begin page content -->
@@ -63,12 +61,16 @@
         <div class="row mt-5 mx-auto d-block text-center">
           <img src="img/profile.png" class="img-fluid rounded-circle mb-3" alt="Profile picture">
           <h4>Marcos Horro</h4>
-          <p class="lead">PhD Candidate</p>
-          <p class="font-weight-light">University of A Coruña (<a href="https://www.udc.gal/">UDC</a>)<br>Computer Architecture Group (<a href="http://gac.udc.es/">GAC</a>)</p>
+          <p class="lead">PhD Candidate (<abbr title="FPU fellowship">FPU</abbr>)</p>
+          <p class="font-weight-light">University of A Coruña (<a
+href="https://www.udc.gal/"><abbr title="University of
+A Coruña">UDC</abbr></a>)<br>Computer Architecture Group (<a
+href="http://gac.udc.es/" ><abbr title="Computer Architecture Group">GAC</abbr></a>)</p>
         </div>
         <hr>
-        <div class="row mt-5 mx-auto d-block">
-          <ul class="social-icons">
+        <div class="row mx-auto d-block">
+        <p class="lead text-center "><a href="mailto:marcos.horro@udc.gal"><i class="far fa-envelope"></i></a> marcos.horro [at] udc.gal</p>
+        <ul class="social-icons text-center">
           	<li><a class="scholar" href="https://scholar.google.es/citations?user=MSmk8RAAAAAJ&hl=es&oi=ao" title="Scholar">Scholar</a></li>
           	<li><a class="orcid" href="https://orcid.org/0000-0002-0184-8527" title="ORCID">ORCID</a></li>
           	<li><a class="linkedin" href="https://www.linkedin.com/in/marcoshorro/" title="Linkedin">LinkedIn</a></li>
@@ -76,12 +78,53 @@
           	<li><a class="twitter" href="https://twitter.com/markoshorro" title="Twitter">Twitter</a></li>
           	<li><a class="instagram" href="https://www.instagram.com/markoshorro/" title="Instagram">Instagram</a></li>
           	<li><a class="flickr" href="https://www.flickr.com/photos/markos-design/" title="Flickr">Flickr</a></li>
-          </ul>
-        </div>
+        </ul>
+        <hr>
+        <p class="text-center font-weight-light">
+      	<i class="far fa-flag"></i> Proud <b><a href="https://www.google.es/maps/place/Galicia/@42.7944603,-9.138824,8z/data=!3m1!4b1!4m5!3m4!1s0xd2e7c868908156b:0xe1ac7930138c9642!8m2!3d42.5750554!4d-8.1338558">Galician</a></b>
+      	<br><br>
+      
+      	<i class="far fa-user-circle"></i> <a href="http://gac.udc.es/~marcos.horro/cvpage/" alt="CV">Interactive CV</a><br>
+        <i class="fas fa-birthday-cake"></i> Since 1994<br><br>
+        <i class="far fa-futbol"></i>	<a href="https://www.rcdeportivo.es/">Football</a> and <i class="fas fa-motorcycle"></i> <a href="http://www.valentinorossi.com/en/">motorcycle</a><br>
+        <i class="fab fa-blogger"></i> <a href="http://blog.marcoshorro.com/" alt="Blog">Personal blog</a> (spanish)
+        </p>
+        <hr>
+        <p class="text-monospace">+34 881 011 376 (extension 1376)<br>
+        Facultade de Informática<br>Campus Elviña S/N, 15071<br>
+      	Laboratorio 0.2
+        </p>
+        <a href="https://stackoverflow.com/users/2856041/horro">
+    	  <img class="separator" src="https://stackoverflow.com/users/flair/2856041.png" width="208" height="58" alt="profile for horro at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for horro at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+        </a>
+        <hr>
+      </div>
       </div>
       <div class="col-8">
-        <section id="" class="mt-5">
-          <h3>Publications</h3>
+        <section id="projects" class="mt-5">
+          <h3 class="display-5">Projects</h3><hr>
+          <ul>
+            <li><a href="https://github.com/markoshorro/gem5McPATparse">gem5McPATparse</a> <span class="badge badge-primary">Flex, Bison, C++</span> - translates the output of gem5 to McPAT format</li>
+            <li><a href="https://github.com/markoshorro/gem5-spm">gem5-spm</a> <span class="badge badge-info">C++, Python</span> - implementation of scratchpad memories in gem5 simulator</li>
+            <li><a href="https://bitbucket.org/markoshorro/iconmunicate/src/master/">iConmunicate</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-success">Android, Nearby, BT</span> - messenger which allows to send messages to other devices using BT and nerby</li>
+            <li><a href="https://github.com/markoshorro/look-around">Look Around</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-success">Android, sensors, Unity, VR</span> - reading QR retrieves information of places of interest, allowing to visualize it using virtual reality through the camera</li>
+            <li><a href="https://github.com/markoshorro/musicsort">MusicSort</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-info">Python, Django, APIs</span> - retrivies all the information of a set of songs uploaded, such as metadata, album cover, lyrics, etc.</li> 
+          </ul>
+        </section>
+        <section id="teach" class="mt-5">
+          <h3 class="display-5">Teaching</h3>
+          <hr>
+          <h4>Course <span class="badge badge-secondary">2018/2019</span></h4>
+          <ul>
+            <li>Programación Integrativa <a
+href="https://guiadocente.udc.es/guia_docent/index.php?centre=614&ensenyament=614G01&assignatura=614G01049&idioma=cast&any_academic=2018_19"
+class="badge badge-info">Planning</a> <a href="https://moodle.udc.es/course/view.php?id=51658" class="badge
+badge-primary">Moodle</a>
+</li>
+          </ul>
+        </section>
+        <section id="pubs" class="mt-5">
+          <h3 class="display-5">Publications</h3>
           <hr>
           <table id="pubTable" class="display"></table>
 <pre id="bibtex">
@@ -105,6 +148,13 @@
   pages={1--8},
   year={2016}
 }
+@inproceedings{horromat,
+  title={Actividades na Ensinanza Secundaria. Experiencia dun alumno no caso concreto de modelización de focos luminosos},
+  author={Búa, Jose B. and Horro, Marcos},
+  booktitle={VI Congreso de AGAPEMA},
+  pages={1--1},
+  year={2012}
+}
 </pre>
         </section>
         <br>
@@ -114,7 +164,7 @@
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Universidade da Coruña. Grupo de Arquitectura de Computadores.</span>
+        <span class="text-muted"><i class="fas fa-university"></i> Universidade da Coruña. Grupo de Arquitectura de Computadores.</span>
       </div>
     </footer>
 

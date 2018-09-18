@@ -2,6 +2,12 @@
   background-color: #6d0a49 !important;
 }
 
+.display-5{font-size:2rem;font-weight:300;line-height:1.2}
+.display-6{font-size:1.4rem;font-weight:300;line-height:1.2}
+
+.fixed {
+}
+
 .social-icons li {
         display: inline;
     }
@@ -52,7 +58,7 @@
             }
 
 span.undefined { color:red; }
-.bibtable {width: 100% auto; height: auto scroll; margin: 0 auto; clear: both;}
+.bibtable {width: auto 100%; height: auto scroll; margin: 0 auto; clear: both;}
 .bibchart { width: 100%; height: 100px; margin-bottom: 20px;}
 .clear {clear:both;}
 .year { position: relative; height: 100%; border-bottom: 1px solid black; display: inline-block;}
@@ -86,3 +92,16 @@ div.bibinfo { width: 80%; position: fixed; top: 100px; left: 10%; background-col
 #shutter { background-color: #555; opacity: 0.7; width:100%; height: 100%; position: fixed; top: 0; left:0; z-index: 20;}
 a.bibclose { background-color: #BBBBBB; border: 3px solid #FFFFFF; color: black; float: left; font-size: 20px; height: 20px; left: -25px; line-height: 20px; padding: 3px; position: relative; text-align: center; text-decoration: none; top: -25px; width: 20px; -moz-border-radius:15px; -webkit-border-radius:15px; -o-border-radius:15px; border-radius:15px; }
 div.bibinfo pre { clear:both; }
+
+.navbar-toggler {
+  text-align: center;
+  
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
