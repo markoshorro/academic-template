@@ -110,6 +110,13 @@ div.bibinfo pre { clear:both; }
 .nav-link {
   color: #fff;
 }
+.nav-link:hover{
+  color: #ffa8d5;
+}
+
+a {
+  color: #e10879;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -147,6 +154,30 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+
+/* timelinelist
+-----------------------------------------------------*/
+
+ul.clist {
+    list-style-type: none;
+    position: relative;
+}
+ul.clist > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.clist > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #e10879;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
 }
 
 /* timelinelist
