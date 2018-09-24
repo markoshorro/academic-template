@@ -31,13 +31,13 @@
             <img src="img/udc.png" width="200" height="30" alt="UDC">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i></button>	
+          <i class="fas fa-bars"></i></button>
     		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
               </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#teach">Teaching</a>
               </li>
               <li class="nav-item">
@@ -84,7 +84,7 @@ href="http://gac.udc.es/" ><abbr title="Computer Architecture Group">GAC</abbr><
         <p class="text-center font-weight-light">
       	<i class="far fa-flag"></i> Proud <b><a href="https://www.google.es/maps/place/Galicia/@42.7944603,-9.138824,8z/data=!3m1!4b1!4m5!3m4!1s0xd2e7c868908156b:0xe1ac7930138c9642!8m2!3d42.5750554!4d-8.1338558">Galician</a></b>
       	<br><br>
-      
+
       	<i class="far fa-user-circle"></i> <a href="http://gac.udc.es/~marcos.horro/cvpage/" alt="CV">Interactive CV</a><br>
         <i class="fas fa-birthday-cake"></i> Since 1994<br><br>
         <i class="far fa-futbol"></i>	<a href="https://www.rcdeportivo.es/">Football</a> and <i class="fas fa-motorcycle"></i> <a href="http://www.valentinorossi.com/en/">motorcycle</a><br>
@@ -107,9 +107,9 @@ href="http://gac.udc.es/" ><abbr title="Computer Architecture Group">GAC</abbr><
           <ul class="timelinelist">
             <li><a href="https://github.com/markoshorro/gem5McPATparse">gem5McPATparse</a> <span class="badge badge-primary">Flex, Bison, C++</span> - translates the output of gem5 to McPAT format</li>
             <li><a href="https://github.com/markoshorro/gem5-spm">gem5-spm</a> <span class="badge badge-info">C++, Python</span> - implementation of scratchpad memories in gem5 simulator</li>
-            <li><a href="https://bitbucket.org/markoshorro/iconmunicate/src/master/">iConmunicate</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-success">Android, Nearby, BT</span> - messenger which allows to send messages to other devices using BT and nerby</li>
+            <li><a href="https://bitbucket.org/markoshorro/iconmunicate/src/master/">iConmunicate</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-success">Android, Nearby, BT</span> - messenger over bluetooth having a gallery of icons</li>
             <li><a href="https://github.com/markoshorro/look-around">Look Around</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-success">Android, sensors, Unity, VR</span> - reading QR retrieves information of places of interest, allowing to visualize it using virtual reality through the camera</li>
-            <li><a href="https://github.com/markoshorro/musicsort">MusicSort</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-info">Python, Django, APIs</span> - retrivies all the information of a set of songs uploaded, such as metadata, album cover, lyrics, etc.</li> 
+            <li><a href="https://github.com/markoshorro/musicsort">MusicSort</a> <span class="badge badge-pill badge-danger">Discontinued</span> <span class="badge badge-info">Python, Django, APIs</span> - retrivies all the information of a set of songs uploaded, such as metadata, album cover, lyrics, etc.</li>
           </ul>
         </section>
         <section id="teach" class="mt-5">
@@ -278,7 +278,7 @@ jQuery("#pubTable").on("click", "a", function(e) {
   var $n = jQuery(this),
       text = $n.text().toUpperCase();
   if (text === "X") { return; }
-  try { 
+  try {
     _gaq.push(['_trackEvent', "PublicationAction", text]);
 } catch(err){ }
   if ($n.attr("href") !== "#") {
